@@ -1,0 +1,421 @@
+/*
+  Project Name: DevFolio
+  Author: Asad Mehmood
+  Company: www.oranjeclick.com;
+*/
+
+/*======================================
+//--//-->   STYLES GENERALES
+======================================*/
+body {
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+h1{
+	color: #231f20;
+	font-weight: 200 !important;
+	font-size: 2rem;
+	line-height: 1;
+}
+h5{
+  font-size: 1rem;
+}
+h4{
+  font-size: 1.2rem;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #231f20;
+}
+
+ul{
+  list-style-type: none;
+}
+a {
+  color: #1e1e1e;
+  transition: all 0.5s ease-in-out;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0078ff;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+.color-a {
+  color: #60d0ac;
+}
+.top-contact-section{
+	background-color: #60d0ac;
+	color: white;
+	font-size: 1.2rem; 
+}
+.asa{
+	float: right;
+}
+.btn-dark{
+	padding: 15px 16px;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: uppercase;
+  background-color: #231f20;
+  border-radius: 10px;
+  border:none;
+}
+.btn-light{
+  padding: 15px 16px;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: uppercase;
+  background-color: #d9dde0;
+  border-radius: 10px;
+  border:none;
+}
+.hub-content {
+    margin-top: 13rem;
+}
+.hub-content2 {
+  margin-top: 8rem;
+}
+.hub-img {
+    margin-top: 3rem;
+    margin-left: 6.9rem;
+    margin-bottom: 13rem;
+}
+.register-text{
+	font-weight: 400;
+	font-size: 20px;
+}
+.couching{
+	text-transform: capitalize;
+	font-weight: 400;
+	line-height: 1;
+	color: #231f20;
+
+}
+.comfort{
+	font-style: italic;
+	font-size: 2rem;
+	font-weight: 200;
+	color: #231f20;
+}
+.tips-text{
+  width: 50%;
+  margin-top: 240px;
+  margin-bottom: 180px;
+  margin-left: 60px;
+  text-transform: capitalize;
+}
+
+/* .white-text {
+  color: #ffffff !important;
+} */
+.btn-darkblue{
+  background-color: #0a0c55;
+}
+.opinion-text{
+  width: 50%;
+}
+.tips-content{
+  width: 50%;
+  text-transform: capitalize;
+  position: absolute;
+    top: 18%;
+    left: 21%;
+}
+.tips-content input{
+  padding: 26px 5px;
+  width: 80%;
+  margin-top: 30px;
+}
+.btn-dark-email{
+  padding: 13px 26px;
+  font-weight: 600;
+  font-size: 19px;
+  text-transform: uppercase;
+  background-color: #231f20;
+  border-radius: 10px;
+  color: white;
+  position: absolute;
+  top: 56%;
+  left: 62%;
+}
+.network{
+  width: 30%;
+  text-align: justify;
+  float: right;
+}
+.useanywhere{
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
+.affordable{
+  width: 30%;
+  text-align: justify;
+}
+.testimo-text{
+  font-size: 22px;
+}
+.speaker-bt{
+  border: 2px solid;
+  width: 70%;
+  text-align: center;
+  font-size: 21px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: auto;
+  padding: 10px;
+  height: 85px;
+}
+.speaker-bt-1{
+  border: 2px solid;
+  width: 70%;
+  text-align: center;
+  font-size: 21px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: auto;
+  padding: 10px;
+  height: 85px;
+}
+.speaker-bt-2{
+  border: 2px solid;
+  width: 70%;
+  text-align: center;
+  font-size: 21px;
+  font-weight: 600;
+  margin: auto;
+  text-transform: uppercase;
+  padding: 10px;
+  height: 85px;
+}
+.contact-options-footer ul{
+  font-weight: 500;
+  font-size: 18px;
+}
+.contact-options-footer li{
+  padding: 6px;
+}
+nav li{
+  margin:0px 2px;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.active .nav-link{
+  background-color: #60d0ac;
+  color: white !important;
+  border-radius: 7px;
+  font-weight: 500;
+}
+.nav-link:hover{
+  /*background-color: #dedede;*/
+  /*color: white !important*/;
+  /*margin:0px 2px;*/
+  border-radius: 7px; 
+}
+.nav-link{
+  color: #231f20!important;
+  padding: 5px;
+}
+/*---------------------------------------- Forum page starts here  -------------------------------------------*/
+.forum-text{
+  width: 53%;
+  float: right;
+  margin-right: 11rem;
+  margin-top: 2rem;
+}
+.btn-dark-search{
+  padding: 16px 21px;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  background-color: #231f20;
+  border-radius: 10px;
+  color: white;
+  position: absolute;
+      top: 70%;
+    left: 55%;
+}
+input.forum-search {
+  height: 55px;
+}
+.progress{
+  width: 18%;
+  height: 5px;
+}
+.in-favour-text{
+  width: 50%;
+  background-color: #60d0ac;
+  color: white;
+  text-align: right;
+  padding: 10px;
+  font-size: 2rem;
+}
+.against-text{
+  width: 50%;
+  background-color: #d75a4a;
+  color: white;
+  padding: 10px;
+  font-size: 2rem;
+}
+form.debate-modal input.form-control{
+    height: 35px;
+}
+/*---------------------------------------- Forum page ends here  -------------------------------------------*/
+/*---------------------------------------- Resources page starts here  -------------------------------------------*/
+
+.project-tab #tabs .nav-tabs .nav-item.show /*.nav-link*/, .nav-tabs .nav-link.active {
+    background-color: transparent;
+    border-color: transparent transparent #f3f3f3;
+    border-bottom: 3px solid !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+.project-tab .nav-link {
+    font-size: 16px;
+    font-weight: 600;
+}
+.project-tab .nav-link:hover {
+    /*border: none;
+}*/
+}
+.tips-text-2{
+  width: 50%;
+  margin-top: 200px;
+  margin-left: 60px;
+  float: right;
+  text-transform: capitalize;
+}
+/*---------------------------------------- Resources page ends here  -------------------------------------------*/
+
+/*---------------------------------------- Login page starts here  -------------------------------------------*/
+.login-box{
+  width: 50%;
+  height: 500px;
+  background-color: white;
+  padding: 50px;
+}
+.btn-default-login{
+  /*padding: 8px 99px;*/
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #60d0ac;
+  color: white;
+  padding: 4px 18px;
+}
+/*---------------------------------------- Login page ends here  -------------------------------------------*/
+
+/*---------------------------------------- Pricing page Starts here  -------------------------------------------*/
+
+
+.content-pr{
+  position:relative;
+    height:100vh;
+    width:100%;
+}
+.sh-1{
+      position: absolute;
+    top: 25%;
+    left: 31%;
+}
+.sh-2{
+      position: absolute;
+    top: 18%;
+    left: 31%;
+}
+.sh-3{
+      position: absolute;
+    top: 23%;
+    left: 25%;
+}
+.shape-txt{
+  font-size: 22px;
+  margin-top: 8rem;
+}
+span.one {
+    margin-left: 12rem;
+    font-size: 53px;
+}
+.pricingTable-header{
+    color: #fff;
+    background: linear-gradient(to left,#60d0ac,#60d0ac);
+    width: 80%;
+    padding: 20px;
+    margin: 0px 0px 0px -30px;
+    border-radius: 0 50px 50px 0;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3) inset, 0 0 3px rgba(0,0,0,0.3);
+    position: relative;
+}
+ .pricingTable-header:before,
+.pricingTable .pricingTable-header:after{
+    content: '';
+    background: linear-gradient(45deg,transparent 49%, #777 50%);
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+}
+.pricingTable .pricingTable-header:after{
+    transform: rotateX(180deg);
+    bottom: auto;
+    top: -10px;
+}
+.pricing .card {
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  min-height: 500px;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing .card-title {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+}
+
+.pricing .card-price {
+ background-color: #5bb498;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    margin: -70px auto 0;
+    line-height: 130px;
+    display: block;
+    font-size: 1.5rem;
+    color: white;
+}
+.pricing ul li {
+  margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+  opacity: 0.7;
+}
+
+@media (min-width: 992px) {
+  .pricing .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+  .pricing .card:hover .btn {
+    opacity: 1;
+  }
+}
+.form-control{
+  height: 50px;
+}
+/*---------------------------------------- Pricing page ends here  -------------------------------------------*/
+

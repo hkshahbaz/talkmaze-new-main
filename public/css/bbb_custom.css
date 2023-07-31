@@ -1,0 +1,54 @@
+
+body {
+    background-color: rgb(63, 94, 181) !important;
+}
+
+#container {
+    background-color: #60d0ac !important;
+}
+
+div[class^="notificationsBar--"] {  background-color: #5cc082 !important; }
+
+div[class^="top--"] > div[class^="center--"] {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+.overlay--1aTlbi {
+    background-color:#ada2a2 !important;
+}
+
+body {
+    background-color:#ada2a2 !important;
+}
+span[class^="bannerTextColor--"] {
+    font-family: "cabin", sans-serif; font-weight: normal; font-size: 0.9em; color: #cacaca;
+}
+
+p[class^="systemMessage--"] { font-size: 0.8em; color: #555}
+
+span[class^="button--"] { background-color: #cacaca; }
+button[class^="button--"] { background-color: #cacaca; }
+
+div[class^="recordingIndicator--"] {
+    margin-left: 6px;
+    margin-right: auto;
+}
+
+.branding--Z1T4eH0 > img {
+    margin: 5px;
+    max-height: 4rem !important;
+    padding-top: 10px;
+}
+
+.chat--111wNM {
+    background-color: #e0dbdb !important;
+}
+
+.avatarWrapper--1HtY4z .avatar--Z2lyL8K{
+    background-color: #908080 !important;
+}
+.userAvatar--1GxXQi .avatar--Z2lyL8K {
+    background-color: #908080 !important;
+}

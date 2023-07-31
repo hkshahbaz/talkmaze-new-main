@@ -1,0 +1,40 @@
+
+body {
+    background-color: rgb(63, 94, 181) !important;
+}
+
+#container {
+    background-color: #555 !important;
+    background-image:linear-gradient(rgba(32,32,32,0.5), rgba(32,32,32,0.5)), url('https://..........png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+div[class^="notificationsBar--"] {  background-color: #5cc082 !important; }
+
+div[class^="top--"] > div[class^="center--"] {
+    background-image: url('https://......png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+h1[class^="presentationTitle--"] {  display: none;}
+span[class^="presentationTitleSeparator"] {  display: none;}
+
+span[class^="bannerTextColor--"] {
+    font-family: "cabin", sans-serif; font-weight: normal; font-size: 0.9em; color: #cacaca;
+}
+
+p[class^="systemMessage--"] { font-size: 0.8em; color: #555}
+
+span[class^="button--"] { background-color: #cacaca; }
+button[class^="button--"] { background-color: #cacaca; }
+
+div[class^="recordingIndicator--"] {
+    margin-left: 6px;
+    margin-right: auto;
+}

@@ -1,0 +1,241 @@
+.conversation{
+    margin: 25px 10px;
+    width: 100%;
+    height: 400px;
+    box-shadow: 0 10px 25px 0 rgba(50,50,93,.07), 0 5px 15px 0 rgba(0,0,0,.07);
+}
+@media screen and (max-width: 360px) {
+    .conversation {
+        width: 100%;
+    }
+}
+
+.sidepanel{
+    float: left;
+    width: 30%;
+    height: 100%;
+    background-color: #113565;
+}
+#toggle-chat-sidebar{
+    display: none;
+    padding-left: 22px;
+    margin: 0px;
+    height: 60px;
+    border-radius: 0px;
+    width: 58px;
+    background-color: #f26d64;
+    color: #fff;
+}
+.sidepanel .search input{
+    padding: 22px;
+    width: 100%;
+    border: none;
+    background: #69d2b1;
+    color: #fff;
+    height: 60px;
+}
+.sidepanel .search input::placeholder{
+    color: #fff;
+}
+.sidepanel .contacts{
+    height: 85%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: #0a0c55;
+}
+.sidepanel .contacts.expanded {
+    height: calc(100% - 334px);
+}
+.sidepanel .contacts ul{
+    padding-left: 0px;
+}
+.sidepanel .contacts ul li.contact{
+    position: relative;
+    padding: 10px 0 10px 0;
+    font-size: 0.9em;
+    cursor: pointer;
+    list-style: none;
+}
+.sidepanel .contacts ul li.contact .wrap{
+    width: 88%;
+    margin: 0 auto;
+    position: relative;
+}
+.sidepanel .contacts ul li.contact .wrap img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+}
+.sidepanel .contacts ul li.contact .wrap .meta{
+    padding: 5px 0 0 0;
+}
+.sidepanel .contacts ul li.contact  .wrap .meta .name{
+    font-weight: 600;
+    color: #fff;
+}
+
+
+
+.chat-sidebar-toggled{
+    position: absolute !important;
+    width: 300px !important;
+    box-shadow: 0px 0px 10px #ccc;
+    z-index: 100000;
+}
+
+.msger {
+    float: right;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    width: 70%;
+    /* margin: 25px 10px; */
+    height: 100%;
+    border-radius: 5px;
+    background: var(--msger-bg);
+    z-index: 0;
+}
+
+.msger-header {
+  padding: 10px;
+}
+
+.msger-chat {
+  flex: 1;
+  overflow-y: auto;
+  padding: 10px;
+}
+.msger-chat::-webkit-scrollbar {
+  width: 6px;
+}
+.msger-chat::-webkit-scrollbar-track {
+  background: #ddd;
+}
+.msger-chat::-webkit-scrollbar-thumb {
+  background: #bdbdbd;
+}
+.msg {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
+.msg:last-of-type {
+  margin: 0;
+}
+.msg-img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  background: #ddd;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
+.msg-bubble {
+  max-width: 450px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 15px;
+  background: #69d2b1 !important;
+  color:white;
+}
+.msg-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.msg-info-name {
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 14px;
+}
+.msg-info-time {
+  font-size: 0.5em;
+}
+.msg-text{
+    font-size: 13px;
+}
+.left-msg .msg-bubble {
+  border-bottom-left-radius: 0;
+}
+
+.right-msg {
+  flex-direction: row-reverse;
+}
+.right-msg .msg-bubble {
+  background: var(--right-msg-bg);
+  color: #fff;
+  border-bottom-right-radius: 0;
+}
+.right-msg .msg-img {
+  margin: 0 0 0 10px;
+}
+
+.msger-inputarea {
+  display: flex;
+  padding: 10px;
+  border-top: var(--border);
+}
+.msger-inputarea * {
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  font-size: 1em;
+}
+.msger-input {
+  flex: 1;
+  background: #ddd;
+}
+.msger-send-btn {
+  margin-left: 10px;
+  background: #69d2b1;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.23s;
+}
+.msger-send-btn:hover {
+    color: #fff;
+  background:#1e3465;
+}
+
+
+@media screen and (max-width: 735px) {
+    .conversation .sidepanel {
+        width: 58px;
+        min-width: 58px;
+    }
+    .sidepanel .search {
+        display: none;
+    }
+    .sidepanel .contacts{
+        height: 88%;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+    .sidepanel .contacts::-webkit-scrollbar{
+        display: none;
+    }
+    .sidepanel .contacts ul li.contact {
+        padding: 6px 0 46px 8px;
+        display: block;
+    }
+    .sidepanel .contacts ul li.contact .wrap {
+        width: 100%;
+    }
+    .sidepanel .contacts ul li.contact .wrap .meta {
+        display: none;
+    }
+
+    .msger{
+        width: calc(100% - 58px);
+    }
+    #toggle-chat-sidebar{
+        display: block;
+    }
+    .sidepanel.chat-sidebar-toggle .contacts ul li.contact .wrap .meta{
+        display: block !important;
+    }
+}

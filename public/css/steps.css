@@ -1,0 +1,161 @@
+
+
+.form-register .steps ul {
+    display: flex;
+    display: -webkit-flex;
+    list-style: none;
+    padding-left: 0;
+    justify-content: center;
+    -o-justify-content: center;
+    -ms-justify-content: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+}
+
+.form-register .steps li a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background: #ccc;
+    margin-right: 80px;
+    position: relative;
+    outline: none;
+}
+.form-register .steps li a::before {
+	position: absolute;
+	content: "";
+	background: #ccc;
+	width: 80px;
+	height: 2px;
+	top: 50%;
+	transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+	left: 100%;
+}
+.form-register .steps li.last a {
+	margin-right: 0;
+}
+.form-register .steps li.last a::before {
+	content: none;
+}
+.form-register .steps li.current a,
+.form-register .steps li.current a:active,
+.form-register .steps li.done a::before,
+.form-register .steps li.done a,
+.form-register .steps li.done a:active  {
+    background: #69d2b1;
+}
+.form-register .steps li .current-info {
+	display: none;
+}
+.form-register .steps li .title {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form-register .content h2 {
+	display: none;
+}
+
+.inner .form-row .form-holder.form-holder-2 {
+    width: 53.6%;
+	position: relative;
+}
+
+.actions ul li.disabled,
+.actions ul li:first-child {
+	display: none;
+}
+.actions ul li {
+	border: none;
+	border-radius: 5px;
+	display: inline-flex;
+	padding: 7px 40px !important;
+    justify-content: center;
+    background: #69d2b1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+	cursor: pointer;
+	margin-left: 3rem;
+	
+}
+.actions ul li:hover {
+	background: #69d2b1;
+}
+.actions ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+.close-btn{
+	color: #69d2b1 !important; 
+	font-size: 40px !important;
+	 opacity: 1 !important;
+  }
+  .modal-header {
+  
+	border-bottom: 0px solid #dee2e6 !important;
+  }
+
+/* Responsive */
+@media screen and (max-width: 1199px) {
+	.wizard-v10-content {
+		margin: 180px 20px;
+	}
+}
+@media screen and (max-width: 991px) {
+	.inner .form-row {
+		flex-direction: column;
+		-o-flex-direction: column;
+		-ms-flex-direction: column;
+		-moz-flex-direction: column;
+		-webkit-flex-direction: column;
+		margin: 0;
+	}
+}
+@media screen and (max-width: 767px) {
+	.inner .form-row .form-holder.form-holder-2 {
+		width: 100%;
+	}
+} 
+@media screen and (max-width: 575px) {
+	.wizard-v10-content {
+		width: 90%;
+	}
+
+	.form-register .steps li a {
+		width: 25px;
+		height: 25px;
+		margin-right: 50px;
+	}
+	.form-register .steps li a::before {
+		width: 50px;
+	}
+	.actions ul li {
+		padding: 5px 31px !important;
+		margin-left: 0rem;
+		
+	}
+} 
+
+.actions ul li{
+	list-style-type: none;
+}

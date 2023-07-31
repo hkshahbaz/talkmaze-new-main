@@ -1,0 +1,133 @@
+.dashboard .card-img {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: calc(.25rem - 1px);
+}
+
+.dashboard .card {
+    position: relative;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #efefef;
+    border-radius: .25rem;
+    box-shadow: 0 10px 25px 0 rgb(50 50 93 / 7%), 0 5px 15px 0 rgb(0 0 0 / 7%);
+}
+
+.fix-size
+{
+	height: 20px !important;
+	width: 20px !important;
+}
+
+.btn-theme
+{
+	background-color: #69d2b1 !important;
+	color: white !important;
+}
+
+.rating a
+{
+	color: #FFC125;
+}
+
+.h_5
+{
+	font-size: 19px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    font-style: normal;
+}
+
+.custom_nav_tab_ancor
+{
+    color: #69d2b1;
+    background: #ffffff;
+    margin-left: 3px !important;
+}
+
+.custom_nav_tab_ancor:hover
+{
+    background: #69d2b1 !important;
+    color: #ffffff !important;
+}
+
+.custom-nav-link
+{
+    border: 1px solid #69d2b1 !important;
+}
+
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active
+{
+    color: white;
+    background-color: #69d2b1;
+}
+.nav-tabs .nav-item.show .nav-link:hover, .nav-tabs .nav-link.active:hover
+{
+    color: white !important;
+    background-color: #69d2b1;
+}
+
+.custom-btn-primary
+{
+    color: #fff;
+    background-color: #5ec8a8;
+    border-color: #5ec8a8;
+}
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #69d2b1;
+    border-color: #69d2b1;
+}
+
+.card-help
+{
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%), 0 3px 10px 0 rgb(0 0 0 / 19%) !important;
+    border: 0px !important;
+    border-radius: 0;
+}
+
+.theme-font-color
+{
+    color: #69d2b1;
+}
+
+.toast-info 
+{
+    background-color: green;
+}
+#toast-container > .toast-success 
+{
+    opacity: 1 !important;
+}
+#toast-container > .toast-error 
+{
+    opacity: 1 !important;
+}
+
+.dashboard-pkg-heading {
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+.pakcage-paragraph{
+    font-size: 1.1rem;
+}
+
+.tooltip > .tooltip-inner{
+    background: #0a0c55 !important;
+    color: white;
+}
+
+.powered_by_img{
+    width: 100%;
+}

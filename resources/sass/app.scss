@@ -1,0 +1,24 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.select2-container .select2-selection--single {
+        height: 35px !important;
+     }
+        input.invalid, textarea.invalid{
+            border: 2px solid red;
+     }
+
+        input.valid, textarea.valid{
+            border: 2px solid green;
+     }
+        .margbg{
+            margin:5px;
+            display: inline-block;
+            position: center;
+     }

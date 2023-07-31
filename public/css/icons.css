@@ -1,0 +1,25 @@
+/* Icons */
+.power{
+    content: url('../svg/power.svg');
+}
+.gear{
+    content: url('../svg/settings.svg');
+}
+.home{
+    content: url('../svg/e-homewhite.svg');
+}
+.coaching{
+    content: url('../svg/e-coaching.svg');
+}
+.resource{
+    content: url('../svg/briefcase.svg');
+}
+.paper{
+    content: url('../svg/file-text.svg');
+}
+.history{
+    content: url('../svg/book-open.svg');
+}
+.bell{
+    content: url('../svg/e-notifications.svg');
+}

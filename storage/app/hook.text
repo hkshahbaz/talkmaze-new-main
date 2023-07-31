@@ -1,0 +1,48 @@
+{
+  "id": "evt_1HRQCdK6lNkBzgTdvQHuQUgc",
+  "object": "event",
+  "api_version": "2020-03-02",
+  "created": 1600122675,
+  "data": {
+    "object": {
+      "id": "cs_test_sYdo8bMGudnTMH263btP5Umf2h4nfu7aRb81U5nb7ioHYt4zFm3HYCwh",
+      "object": "checkout.session",
+      "allow_promotion_codes": true,
+      "amount_subtotal": 16000,
+      "amount_total": 16000,
+      "billing_address_collection": null,
+      "cancel_url": "https://dev.talkmaze.com/api/stripepaymentcanceled",
+      "client_reference_id": "190",
+      "currency": "usd",
+      "customer": "cus_I1T8nqW5kVHFHv",
+      "customer_email": null,
+      "livemode": false,
+      "locale": null,
+      "metadata": {
+      },
+      "mode": "subscription",
+      "payment_intent": null,
+      "payment_method_types": [
+        "card"
+      ],
+      "payment_status": "paid",
+      "setup_intent": null,
+      "shipping": null,
+      "shipping_address_collection": null,
+      "submit_type": null,
+      "subscription": "sub_I1T8x0XobQ3lxV",
+      "success_url": "https://dev.talkmaze.com/api/stripepaymentsuccess",
+      "total_details": {
+        "amount_discount": 0,
+        "amount_tax": 0
+      }
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 1,
+  "request": {
+    "id": "req_KADOrr01JLh6bG",
+    "idempotency_key": null
+  },
+  "type": "checkout.session.completed"
+}
